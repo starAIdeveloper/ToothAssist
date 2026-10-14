@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": [
+    "navigation",
+    "patient creation",
+    "manual finding",
+    "pixel processing",
+    "ruler",
+    "scan metadata",
+    "annotation export",
+    "treatment creation/status/persistence",
+    "report generation",
+    "CSV export",
+    "patient isolation",
+    "backup restore",
+    "invalid backup rejection",
+    "image upload",
+    "mobile overflow"
+  ],
+  "pageErrors": []
+}
