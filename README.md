@@ -66,7 +66,7 @@ User-provided screenshots, converted to WebP for repository size. These are desi
 npm run check
 npm test
 # Optional full browser checks; install Python Playwright and its browser:
-python -m pip install playwright
+python -m pip install playwright Pillow
 python -m playwright install chromium
 python tests/browser_check.py
 # Or set CHROMIUM_PATH to an existing Chromium executable.
