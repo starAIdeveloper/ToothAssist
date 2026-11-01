@@ -4,32 +4,6 @@ A working browser dental imaging workspace inspired by the five supplied desktop
 
 ![Running ToothAssist dashboard](docs/screenshots/dashboard.webp)
 
-## Design reference gallery
-
-The five supplied interface designs are shown below. Screenshots of the implemented app are in [Running application screenshots](#running-application-screenshots).
-
-### Dental dashboard
-
-![Dental dashboard design with patient metrics, panoramic and intraoral imagery, scan history and analysis summaries](docs/reference/screen-1.webp)
-
-### Scan and analyze workspace
-
-![Scan workspace design with an intraoral image, preprocessing controls, analysis options and image-processing previews](docs/reference/screen-2.webp)
-
-### AI analysis workspace
-
-![Analysis design with an annotated panoramic X-ray, findings table, attention heatmap and analysis tools](docs/reference/screen-3.webp)
-
-### Treatment planning
-
-![Treatment planning design with a dental chart, selected tooth, treatment schedule and patient information](docs/reference/screen-4.webp)
-
-### Patient reports
-
-![Reports design with patient history, issue trends, treatment progress and report preview](docs/reference/screen-5.webp)
-
-These user-provided designs are stored as WebP copies for repository size. Their illustrative data and AI annotations are reference content, not outputs from this implementation.
-
 ## Run
 
 Requires Node.js 22+ for tests and Python 3 for the local server. No npm dependencies or build step.
